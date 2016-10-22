@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+  color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  display: inline-block;
+  width: 320px;
+  padding: 1rem;
+  text-decoration: none;
+  color: #000;
+  border: solid;
+  border-color: #785439;
+  border-width: 3px;
+  border-radius: 8px;
+  background-color: #dcd4cd;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+
+div {
+  display: block;
+  text-align: left;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #9a816d;
+  border-width: 2px;
+  margin: 0 0 1rem;
+}
+
+.btn-wrap {
+  text-align: center;
+  border: none;
+  margin: 0;
+}
+
+ol {
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+
+ol:nth-of-type(2) {
+  margin: 0 3rem;
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+  font-size: .875rem;
+}
+
+span {
+  display: inline-block;
+  text-align: center;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  border: solid;
+  border-color: #785439;
+  border-width: 2px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+  border-color: #512200;
+}
