@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
-  line-height: 1.5;
   font-family: Georgia, serif;
   color: #f0eee8;
+  color: #512200;
 }
 
 *, *::before, *::after {
@@ -14,12 +14,13 @@ html {
   width: 320px;
   padding: 1rem;
   text-decoration: none;
-  color: #000;
+  color: #512200;
   border: solid;
   border-color: #785439;
   border-width: 3px;
   border-radius: 8px;
   background-color: #dcd4cd;
+  line-height: 1.5rem;
 }
 
 .link-card:hover {
@@ -29,9 +30,8 @@ html {
 .link-card h2 {
   margin: 0 0 1rem;
   font-family: Dosis, sans-serif;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 1.5rem;
-  line-height: 1.5rem;
 }
 
 p {
@@ -55,20 +55,26 @@ div {
   margin: 0;
 }
 
-ol {
-  text-align: left;
+dl {
+  width: 100%;
   display: inline-block;
   padding: 0;
-}
-
-ol:nth-of-type(2) {
-  margin: 0 3rem;
-  font-style: italic;
-}
-
-li {
-  list-style: none;
   font-size: .875rem;
+  line-height: 1.5;
+}
+
+dt {
+  float: left;
+  width: 50%;
+  display: inline-block;
+}
+
+dd {
+  float: left;
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+  font-style: italic;
 }
 
 span {
